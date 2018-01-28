@@ -1,3 +1,10 @@
+# Apps
+alias gitx='open -a GitX .'
+alias st='open -a SourceTree .'
+
+# Code folder
+alias code='cd ~/Code'
+
 # grc overides for ls
 #   Made possible through contributions from generous benefactors like
 #   `brew install coreutils`

@@ -1,7 +1,0 @@
-#!/bin/sh
-#
-# https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal
-
-open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
-
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime

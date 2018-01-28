@@ -27,6 +27,12 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
+## new machine
+- `script/install`
+- `script/bootstrap`
+- Setup Dropbox
+- `script/continue-install`
+
 ## install
 
 Run this:
