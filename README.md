@@ -27,27 +27,25 @@ There's a few special files in the hierarchy.
   but still keep those autoloaded files in your home directory. These get
   symlinked in when you run `script/bootstrap`.
 
-## new machine
+## installing on a new machine
+
+- `git clone https://github.com/carsol/dotfiles.git ~/.dotfiles`
+- `cd ~/.dotfiles`
 - `script/install`
 - `script/bootstrap`
 - Setup Dropbox (where more personal config/settings are synced from)
 - `script/continue-install`
 
-## install
+## bootstrap
 
 Run this:
 
-```sh
-git clone https://github.com/carsol/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-script/bootstrap
-```
+`script/bootstrap`
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
 Everything is configured and tweaked within `~/.dotfiles`.
 
-The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
-which sets up a few paths that'll be different on your particular machine.
+## dot
 
 `dot` is a simple script that installs some dependencies, sets sane macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
