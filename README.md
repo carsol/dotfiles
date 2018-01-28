@@ -30,7 +30,7 @@ There's a few special files in the hierarchy.
 ## new machine
 - `script/install`
 - `script/bootstrap`
-- Setup Dropbox
+- Setup Dropbox (where more personal config/settings are synced from)
 - `script/continue-install`
 
 ## install
