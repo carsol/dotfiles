@@ -2,4 +2,4 @@
 mackup restore
 
 # copy all Fluid apps from Dropbox and move them into the User's Applications folder
-cp ~/Dropbox/Sync/Apps/* ~/Applications/
+cp ~/Dropbox/Sync/Fluid\ Apps/* ~/Applications/

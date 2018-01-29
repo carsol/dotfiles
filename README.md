@@ -33,7 +33,7 @@ There's a few special files in the hierarchy.
 - `cd ~/.dotfiles`
 - `script/install`
 - `script/bootstrap`
-- Setup Dropbox (where more personal config/settings are synced from)
+- Setup Box/Dropbox/Google Drive/wherever you host more personal config/settings
 - `script/continue-install`
 
 ## bootstrap
