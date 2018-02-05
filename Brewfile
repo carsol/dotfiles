@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 tap 'puma/puma'
 
 brew 'ack'
-brew 'asdf'
 brew 'coreutils'
 brew 'git'
 brew 'grc'
