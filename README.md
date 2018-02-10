@@ -31,7 +31,6 @@ There's a few special files in the hierarchy.
 
 - `git clone https://github.com/carsol/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
-- `script/install`
 - `script/bootstrap`
 - Setup Box/Dropbox/Google Drive/wherever you host more personal config/settings
 - `script/continue-install`

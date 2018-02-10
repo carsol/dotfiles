@@ -1,2 +1,2 @@
 # itermocil
-complete -W "$(itermocil --list)" itermocil
+compctl -g '~/.itermocil/*(:t:r)' itermocil
