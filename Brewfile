@@ -18,6 +18,9 @@ brew 'postgresql'
 brew 'unrar'
 brew 'wget'
 brew 'watch'
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zplug'
 
 # cask '1password' # using mac store version
 cask 'adium'
