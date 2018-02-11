@@ -10,4 +10,4 @@ if [ ! -d ~/.oh-my-zsh ]; then
 fi
 
 # set zsh as default
-chsh -s /bin/zsh
+chsh -s /usr/local/bin/zsh

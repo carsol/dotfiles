@@ -18,6 +18,7 @@ brew 'postgresql'
 brew 'unrar'
 brew 'wget'
 brew 'watch'
+brew 'wifi-password'
 brew 'zsh'
 brew 'zsh-completions'
 
