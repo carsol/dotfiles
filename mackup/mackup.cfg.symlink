@@ -7,6 +7,7 @@ dash
 littlesnitch
 itermocil
 kaleidoscope
+moom
 sketch
 sourcetree
 spotify
@@ -15,9 +16,6 @@ transmission
 vlc
 xcode
 sublime-text-3
-
-[applications_to_ignore]
-moom
 
 [configuration_files]
 .gitignore_global
