@@ -1,0 +1,1 @@
+alias es='ember serve'
