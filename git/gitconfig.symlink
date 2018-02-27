@@ -5,6 +5,7 @@
         protocol = https
 [alias]
         co = checkout
+        f = fetch --prune origin
         s = status
 [color]
         diff = auto
