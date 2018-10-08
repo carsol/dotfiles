@@ -13,7 +13,7 @@
         branch = auto
         ui = true
 [core]
-	excludesfile = /Users/csolares/.gitignore
+	excludesfile = ~/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
@@ -39,4 +39,4 @@
 	name = Carlos Solares
 	email = csolares23@gmail.com
 [commit]
-	template = /Users/csolares/.stCommitMsg
+	template = ~/.stCommitMsg
