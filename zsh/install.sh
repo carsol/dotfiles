@@ -3,11 +3,7 @@
 # oh-my-zsh installation
 #
 
-# install oh my zsh
-if [ ! -d ~/.oh-my-zsh ]; then
-  echo "installing oh-my-zsh..."
-  git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-fi
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # set zsh as default
-chsh -s /usr/local/bin/zsh
+sudo sh -c "echo $(which zsh) >> /etc/shells"

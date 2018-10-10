@@ -1,9 +1,0 @@
-#!/bin/zsh
-#
-# This lets you quickly jump into a project directory.
-#
-# Type:
-#
-#   c <tab>
-#
-cd "$PROJECTS/$1"
