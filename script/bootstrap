@@ -24,4 +24,4 @@ echo 'Mackup restore...'
 mackup restore
 
 echo ''
-echo '  All installed!'
+echo 'All installed!'
