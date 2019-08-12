@@ -1,2 +1,2 @@
-# iterm2
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+#https://www.iterm2.com/documentation-shell-integration.html
+curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
