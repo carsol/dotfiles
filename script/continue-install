@@ -1,8 +1,3 @@
+#!/usr/bin/env bash
 # restore all senstive config/settings
 mackup restore
-
-# copy all Fluid apps from Dropbox and move them into the User's Applications folder
-# if find "~/Dropbox/Sync/Fluid\ Apps" -mindepth 1 -print -quit | grep -q .; then
-#   echo "Copy Fluid Apps into Applications folder..."
-#   cp ~/Dropbox/Sync/Fluid\ Apps/* ~/Applications/
-# fi
