@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# restore all senstive config/settings
-mackup restore

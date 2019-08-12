@@ -28,6 +28,7 @@ brew 'watch'
 brew 'wifi-password'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'autojump'
 
 # cask '1password-6'
 cask 'adium'
