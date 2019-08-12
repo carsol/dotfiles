@@ -6,4 +6,3 @@ alias rc='spring stop && bin/rails console'
 alias rake="noglob rake"
 alias b="bundle"
 alias be="bundle exec"
-alias ber="bundle exec rails"

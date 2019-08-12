@@ -1,16 +1,17 @@
 
-# functions
 fpath=($ZSH/functions $fpath)
-autoload -U $ZSH/functions/*(:t)
+autoload -U $ZSH/functions/*(:t) # load up functions
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-setopt SHARE_HISTORY # share history between sessions ???
+setopt NO_BG_NICE # don't nice background tasks
+setopt NO_HUP
+setopt NO_LIST_BEEP
+setopt SHARE_HISTORY # share history between sessions
 setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
-unsetopt CORRECT # disable autocorrect
 setopt COMPLETE_IN_WORD
 setopt IGNORE_EOF
 

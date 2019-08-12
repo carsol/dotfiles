@@ -46,7 +46,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -54,6 +54,7 @@ ZSH_THEME="avit"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   asdf
+  autojump
   brew
   history
   iterm2
@@ -67,3 +68,9 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+export HISTFILE="~/.zhistory"
+
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

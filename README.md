@@ -12,8 +12,6 @@ symlinked without extension into `$HOME` when you run `script/bootstrap`.
 
 There's a few special files in the hierarchy.
 
-- **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
-  available everywhere.
 - **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
@@ -36,9 +34,7 @@ There's a few special files in the hierarchy.
 ## bootstrap
 
 `script/bootstrap` is a simple script that installs some dependencies, sets sane macOS
-defaults, and so on. Tweak this script, and occasionally run `dot` from
-time to time to keep your environment fresh and up-to-date. You can find
-this script in `bin/`.
+defaults, and so on.
 
 ## thanks
 
