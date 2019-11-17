@@ -7,17 +7,11 @@ echo ''
 echo 'Installing dotfiles...'
 $ZSH/script/install-dotfiles.sh
 
-echo 'Set macOS defaults...'
-$ZSH/macos/set-defaults.sh
-
-echo 'Installing homebrew...'
-$ZSH/homebrew/install.sh 2>&1
-
 echo 'Running through all install.sh...'
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 
-echo 'Mackup restore...'
-mackup restore # restore all senstive config/settings
+echo 'Set macOS defaults...'
+$ZSH/macos/set-defaults.sh
 
 echo ''
 echo 'All installed!'
