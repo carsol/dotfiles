@@ -5,7 +5,3 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
-
-
-# Other Mac Store apps
-mas install 1006087419 # install SnippetsLab

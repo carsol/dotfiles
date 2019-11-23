@@ -47,3 +47,7 @@ cask 'the-unarchiver'
 cask 'tunnelbear'
 cask 'utc-menu-clock'
 cask 'visual-studio-code'
+
+mas 'Magnet', id: 441258766
+mas 'Pocket', id: 568494494
+mas 'SnippetsLab', id: 1006087419
