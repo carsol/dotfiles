@@ -26,9 +26,9 @@ There's a few special files in the hierarchy.
   symlinked in when you run `script/bootstrap`.
 
 ## installing on a new machine
-- Install Dropbox (for mackup)
 - `git clone https://github.com/carsol/dotfiles.git ~/.dotfiles`
 - `cd ~/.dotfiles`
+- set any local gitconfig overrides at `git/gitconfig.local.symlink` (eg. work email)
 - `script/bootstrap`
 
 ## bootstrap
