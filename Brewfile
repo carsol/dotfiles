@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'puma/puma'
 
+brew 'asdf'
 brew 'ack'
 brew 'automake'
 brew 'coreutils'
