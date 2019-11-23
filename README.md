@@ -30,6 +30,7 @@ There's a few special files in the hierarchy.
 - `cd ~/.dotfiles`
 - set any local gitconfig overrides at `git/gitconfig.local.symlink` (eg. work email)
 - `script/bootstrap`
+- install java, nodejs, postgresql, ruby via asdf
 
 ## bootstrap
 
