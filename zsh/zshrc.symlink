@@ -72,5 +72,5 @@ export HISTFILE="~/.zhistory"
 
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+# For asdf setup
+. $(brew --prefix asdf)/asdf.sh
