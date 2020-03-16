@@ -1,0 +1,5 @@
+alias g='./gradle'
+alias gw='./gradlew'
+alias gwb='./gradlew build'
+alias gwbc='./gradlew build clean'
+alias gwt='./gradlew test'
